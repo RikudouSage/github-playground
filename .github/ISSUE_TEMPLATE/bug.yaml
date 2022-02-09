@@ -8,3 +8,10 @@ body:
   - type: markdown
     attributes:
       value: Thank you for helping is improve by filling a bug report!
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+      

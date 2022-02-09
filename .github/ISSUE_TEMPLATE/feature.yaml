@@ -29,7 +29,7 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Additional context
+      label: Additional context (optional)
       description: Add any other context or screenshots about the feature request here.
     validations:
       required: false

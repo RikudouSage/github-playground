@@ -4,3 +4,7 @@ title: "[Bug]: "
 labels: ["bug"]
 assignees:
   - RikudouSage
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping is improve by filling a bug report!

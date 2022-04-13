@@ -1,0 +1,17 @@
+name: publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: create file
+        run: date > test.txt
+      - name: push
+        uses: actions-x/commit@master

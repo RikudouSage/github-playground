@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#git config --global --add safe.directory /github/workspace
+git config --global --add safe.directory /github/workspace
 
 cd "$INPUT_DIRECTORY" || exit 1
 
